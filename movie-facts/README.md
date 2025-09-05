@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-demo link: https://drive.google.com/file/d/1X_t08eCVLC8hTYKcRWEA8Z1bGRHC8bAc/view?usp=drive_link
+Demo link: https://drive.google.com/file/d/1X_t08eCVLC8hTYKcRWEA8Z1bGRHC8bAc/view?usp=drive_link
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
