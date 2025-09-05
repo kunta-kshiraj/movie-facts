@@ -14,15 +14,13 @@ export default async function Onboarding() {
     where: { user: { email: session.user.email } },
   });
 
-  if (existing) redirect("/dashboard");
-
   return (
     <>
       <Header showLogout />
       <main style={{ maxWidth: 600, margin: "0 auto", padding: 24 }}>
         <h2>Welcome!</h2>
         <p>Before we start, tell us your favorite movie.</p>
-        <FavoriteMovieForm />
+        <FavoriteMovieForm initialTitle={existing?.title ?? ""} />
       </main>
     </>
   );

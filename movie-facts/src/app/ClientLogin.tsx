@@ -5,7 +5,7 @@ export default function ClientLogin() {
   return (
     <button
       aria-label="Sign in with Google"
-      onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
+      onClick={() => signIn("google", { callbackUrl: "/onboarding" })}
       style={{
         display: "inline-flex",
         alignItems: "center",

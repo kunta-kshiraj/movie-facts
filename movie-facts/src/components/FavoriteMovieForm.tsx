@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function FavoriteMovieForm() {
-  const [title, setTitle] = useState("");
+export default function FavoriteMovieForm({ initialTitle = "" }: { initialTitle?: string }) {
+  const [title, setTitle] = useState(initialTitle);
   const [submitting, setSubmitting] = useState(false);
   const router = useRouter();
 

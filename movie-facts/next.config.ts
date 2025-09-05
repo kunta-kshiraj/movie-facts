@@ -1,4 +1,4 @@
-// next.config.ts
+
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -26,8 +26,8 @@ const nextConfig = {
         protocol: "https",
         hostname: "lh6.googleusercontent.com",
       },
-      // (optional) avatar CDN used sometimes by Google profiles
-      { protocol: "https", hostname: "avatars.githubusercontent.com" }, // if you later pull GH avatars
+      
+      { protocol: "https", hostname: "avatars.githubusercontent.com" }, 
     ],
   },
 };
