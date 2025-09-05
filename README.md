@@ -10,9 +10,9 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
+or
 pnpm dev
-# or
+or
 bun dev
 Open http://localhost:3000 with your browser to see the result.
 
@@ -33,3 +33,8 @@ Deploy on Vercel
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
 Check out our Next.js deployment documentation for more details.
+
+
+
+
+Note: I did not include any credentials of the .env file because it had google screet id/keys and google api key
