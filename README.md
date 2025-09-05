@@ -37,5 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-
-Note: I did not include any credentials of the .env file because it had google screet id/keys and google api key
+## Note: 
+I did not include any credentials of the .env file because it had google screet id/keys and google api key
